@@ -9,17 +9,16 @@
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
 
-let sequence = [0,1,2,3,4,5,6,7,8,9,10]
-let i;
-for (i = 0; i <= 10; i++) {
-    console.log(i);
- function callback(sequence) {
-     return (i);
- }
-     if (i % 2 == 0){
+// let sequence = [0,1,2,3,4,5,6,7,8,9,10]
+// let i;
+for (let i = 0; i <= 10; i++) {
+    // console.log(i);
+    callback(i);
+}
+ function callback(number) {
+     if (number % 2 == 0){
          console.log('The number is even')
      } else {
          console.log('The number is odd.')
-     }
-}
-callback();
+    }
+    }
