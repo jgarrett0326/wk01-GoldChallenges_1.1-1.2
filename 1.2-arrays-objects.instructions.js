@@ -11,8 +11,8 @@
 let favoriteMovie = {
     nameOfMovie: 'Steel Magnolias',
     runTime: '2h 3m',
-    characters: [{name: 'Shelby', age: 33, items: [{healthConcern:'Type 1 Diabetes'}, {favoriteColor:'Pink'}]},
-                 {name: 'MLynn', age: 50, items:[{hairStyle:'Football Helmet'}, {children: 3}]}
+    characters: [{name: 'Shelby', age: 33, items: [{itemOne:'Type 1 Diabetes'}, {itemTwo:'Pink'}]},
+                 {name: 'MLynn', age: 50, items:[{itemOne:'Football Helmet'}, {itemTwo: 3}]}
                 ]
 }
 
@@ -20,4 +20,4 @@ console.log(favoriteMovie.nameOfMovie);
 console.log(favoriteMovie.runTime);
 console.log(favoriteMovie.characters);
 console.log(favoriteMovie.characters[0].name);
-console.log(favoriteMovie.characters[0].items[1].favoriteColor);
+console.log(favoriteMovie.characters[0].items[1].itemTwo);
